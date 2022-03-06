@@ -2,6 +2,7 @@
 @import "lib/functions";
 @import "flex";
 @import "markup";
+@import "image";
 
 .App {
   text-align: center;
@@ -44,22 +45,12 @@ main {
   color: rgb(6, 87, 249)
 }
 
-;
-
 .blue-pill-blue {
   color: rgb(78, 105, 169)
 }
-
-;
 
 .blue-pill-black {
   color: rgb(32, 31, 35);
 
 }
 
-;
-
-img {
-  max-width: 35rem;
-  margin: 1rem;
-}
