@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './yearn-logo.svg';
-import './app.scss';
-var listOfImages =[];
+import './scss/app.scss';
+let listOfImages =[];
 
 class App extends React.Component {
     importAll(r) {
@@ -13,16 +13,17 @@ class App extends React.Component {
     }
 
     render() {
-        return (<div className="App">
-                <header className="App-header">
-                    <img src={logo} alt="logo"/>
-                    <p>The Blue Pill</p>
+        return (<main className="App">
+                <header className="align-left">
+                    <div><img src={logo} className={"logo"} alt="logo"/></div>
+                    {/*<div><h1 className={"align-center"}>The Blue Pill</h1></div>*/}
+                    {/*<div></div>*/}
                 </header>
                 <section>
-                    {listOfImages.map((image, index) => <img key={index} src={image} alt="info"></img>)}
+                    {listOfImages.map((image, index) => <img key={index} src={image} alt="info"/>)}
                 </section>
-            </div>);
+            </main>);
     }
-};
+}
 
 export default App;
