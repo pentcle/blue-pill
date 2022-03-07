@@ -3,6 +3,7 @@
 @import "flex";
 @import "footer";
 @import "image";
+@import "main";
 @import "markup";
 
 .App {
@@ -22,11 +23,6 @@ body {
 
 header {
   padding: 1rem;
-}
-
-main {
-  padding: 1rem;
-  margin: 0 auto;
 }
 
 .App-link {
