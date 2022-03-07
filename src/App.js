@@ -15,7 +15,8 @@ class App extends React.Component {
     render() {
         return (<main className="App">
                 <header className="align-left">
-                    <div><img src={logo} className={"logo"} alt="logo"/></div>
+                    <a href={"https://yearn.finance"} target={"_blank"}
+                       rel="noopener noreferrer"><img src={logo} className={"logo"} alt="logo"/></a>
                     {/*<div><h1 className={"align-center"}>The Blue Pill</h1></div>*/}
                     {/*<div></div>*/}
                 </header>
