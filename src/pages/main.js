@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
-import logo from "../images/yearnfun.svg";
+import logo from '../images/yearn-logo.svg';
 import {Link} from "react-router-dom";
 
 export const Main = () => {
