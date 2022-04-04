@@ -6,15 +6,6 @@
 @import "main";
 @import "markup";
 
-.App {
-  text-align: center;
-}
-
-.logo {
-  width: 10rem;
-  text-align: left;
-}
-
 body {
   background-color: rgb(32, 31, 35);
   font-size: 16px;
@@ -25,17 +16,35 @@ header {
   padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  width: 10rem;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.vertical-center-container {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 4rem);
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 415px) {
+  .vertical-center-container {
+    height: calc(100% - 4rem);
+    position:fixed;
+    top:0;
+    bottom:0;
+    text-align:center;
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.text-large {
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
 }
 
 .yearn-blue {
@@ -51,8 +60,44 @@ header {
 }
 
 a {
-  color: rgb(230, 230, 230);
-  margin-right: 1rem;
-  text-decoration: none;
+  color: white;
+  text-decoration: underline;
 }
 
+p, a {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  text-transform: lowercase;
+}
+
+.icon-link {
+  span {display: none}
+  svg {
+    background-color: white;
+    background-clip: padding-box;
+    border-radius: 50%;
+    outline: 1px solid #0657F9;
+    outline-offset: -1px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .icon-link {
+    svg {
+      background-color: unset;
+      background-clip: unset;
+      border-radius: unset;
+      outline: unset;
+      outline-offset: unset;
+    }
+  }
+}
+
+.text-white {
+  color: white;
+}
+
+.text-transparent {
+  color: transparent;
+}
