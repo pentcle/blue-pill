@@ -14,7 +14,7 @@ export const Main = () => {
                         YFI story
                     </p>
                     <Link to={"/blue-pill"}>the blue pill</Link>
-                    <Link to={"/images"}>image library</Link>
+                    {/*<Link to={"/images"}>image library</Link>*/}
                 </article>
             </main>
       </Layout>
