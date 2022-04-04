@@ -3,13 +3,13 @@ import Layout from "../components/Layout";
 
 let listOfImages =[];
 
-class BluePill extends React.Component {
+class ImageLib extends React.Component {
     importAll(r) {
         return r.keys().map(r);
     }
 
     componentWillMount() {
-        listOfImages = this.importAll(require.context('../images/blue-pill', false, /\.(png|jpe?g|svg)$/));
+        listOfImages = this.importAll(require.context('../images/all', false, /\.(png|jpe?g|svg)$/));
     }
 
     render() {
@@ -21,4 +21,4 @@ class BluePill extends React.Component {
     }
 }
 
-export default BluePill;
+export default ImageLib;

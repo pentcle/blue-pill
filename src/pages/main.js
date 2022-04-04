@@ -7,14 +7,14 @@ import {Link} from "react-router-dom";
 export const Main = () => {
   return (
     <div>
-        <Header>{logo}</Header>
         <Layout>
             <main>
                 <article className={"vertical-center-container"}>
                     <p className={"text-large vertical-center"}>
-                        hello
+                        YFI story
                     </p>
-                    <Link to={"/time"}>yearn time</Link>
+                    <Link to={"/blue-pill"}>the blue pill</Link>
+                    <Link to={"/images"}>image library</Link>
                 </article>
             </main>
       </Layout>
