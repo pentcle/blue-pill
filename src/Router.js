@@ -7,7 +7,7 @@ import ImageLib from "./pages/imageLib";
 
 export const Router = () => {
     return (<Routes>
-            <Route path="/" element={<Main/>}/>
+            <Route path="/" element={<BluePill/>}/>
             <Route path={`/blue-pill`} element={<BluePill/>}/>
             <Route path={`/images`} element={<ImageLib/>}/>
         </Routes>);
