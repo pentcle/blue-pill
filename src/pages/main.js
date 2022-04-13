@@ -13,8 +13,8 @@ export const Main = () => {
                     <p className={"text-large vertical-center"}>
                         YFI story
                     </p>
-                    <Link to={"/blue-pill"}>the blue pill</Link>
-                    {/*<Link to={"/images"}>image library</Link>*/}
+                    <Link to={"/thebluepill"}>the blue pill</Link>
+                    <Link to={"/images"}>image library</Link>
                 </article>
             </main>
       </Layout>
