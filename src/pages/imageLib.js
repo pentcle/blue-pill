@@ -15,7 +15,7 @@ class ImageLib extends React.Component {
     render() {
         return (<Layout>
             <section className={"align-center"}>
-                {listOfImages.map((image, index) => <img key={index} src={image} alt="info"/>)}
+                {listOfImages.map((image, index) => <img className={"sml"} key={index} src={image} alt="info"/>)}
             </section>
         </Layout>);
     }

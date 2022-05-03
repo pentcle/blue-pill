@@ -6,7 +6,12 @@ img {
 @media screen and (min-width: _breakpoint(step-one)) {
   img {
     width: auto;
-    max-height: 20rem;
+    max-height: 40rem;
     margin: 1rem;
+  }
+  img.sml {
+    width: auto;
+    max-height: 20rem;
+    margin: .75rem;
   }
 }
