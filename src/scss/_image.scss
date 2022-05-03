@@ -5,7 +5,8 @@ img {
 
 @media screen and (min-width: _breakpoint(step-one)) {
   img {
-    max-width: 35rem;
+    width: auto;
+    max-height: 20rem;
     margin: 1rem;
   }
 }
