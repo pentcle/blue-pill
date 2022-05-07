@@ -12,7 +12,7 @@ export const Main = () => {
                         <p className={"text-large vertical-center"}>
                             YFI story
                         </p>
-                        <Link className={"margin-top-2"} to={"/thebluepill/en"}>the blue pill - english</Link>
+                        <Link className={"margin-top-2"} to={"/thebluepill"}>the blue pill - english</Link>
                         <Link to={"/thebluepill/sp"}>the blue pill - spanish</Link>
                         <Link to={"/thebluepill/hi"}>the blue pill - hindi</Link>
                         <Link to={"/thebluepill/po"}>the blue pill - portuguese</Link>
