@@ -12,7 +12,7 @@ import BluePillTurkish from "./pages/bluePillTurkish";
 export const Router = () => {
     return (<Routes>
             <Route path="/" element={<Main/>}/>
-            <Route path={`/thebluepill/en`} element={<BluePill/>}/>
+            <Route path={`/thebluepill`} element={<BluePill/>}/>
             <Route path={`/thebluepill/hi`} element={<BluePillHindi/>}/>
             <Route path={`/thebluepill/po`} element={<BluePillPortugese/>}/>
             <Route path={`/thebluepill/sp`} element={<BluePillSpanish/>}/>
